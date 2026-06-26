@@ -56,7 +56,7 @@ def bersihkan_teks(text):
     teks_bersih = " ".join(final_tokens)
     return teks_bersih
 
-st.title("🤖 Deteksi Sentimen Teks Indonesia (Anti-Halu V3)")
+st.title("🤖 Deteksi Sentimen Teks Indonesia ")
 st.divider()
 
 with st.form(key='nlp_form'):
